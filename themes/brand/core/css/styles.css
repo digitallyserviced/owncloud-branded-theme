@@ -1,54 +1,23 @@
+	#document-title .logo-wide {
+		background-image: none !important;
+		width: 147px;
+		height: 32px;
+	}
 
-/*  Theme example. Override the main style and make links red */
+	#body-user #header, #body-settings #header {
+		background-image: none;
+		background-color: #7b7b7b;
+	}
 
-#body-user #header, #body-settings #header {
-	background:#6c6c6c url(../img/siteHeaderGradient.png) center bottom no-repeat;
-	box-shadow: 1px 1px 7px #7b7b7b !important;
-	z-index: 998;
-}
+	#expanddiv {
+		background-image: none;
+		background-color: #7b7b7b;
+	}
 
-#body-settings #settings {
-	color:#fff;
-}
-
-#expanddiv {
-	position: absolute;
-	right: 10px !important;
-	top: 45px !important;
-	color:#000 !important;
-	z-index: 999 !important;
-	display: none;
-	background:#6c6c6c url(../img/siteHeaderGradient.png) left top no-repeat;
-	border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
-	box-shadow: 6px 7px 15px rgb(29,45,68);
-	border-bottom: 1px #333 solid;
-	border-left: 1px #333 solid;
-	border-right: 1px #333 solid;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-#expanddiv li {
-	list-style-type: none;
-}
-#navigation {
-	z-index: 999;
-}
-#apps {
-	z-index: 999;
-	background-image: none;
-	background-color:#6c6c6c;
-}
-#editorcontrols {
-	top: -33px;
-	position: relative;
-}
-#document-title .logo-wide {
-	background-image: none !important;
-	width: 147px;
-	height: 32px;
-}
+	#content {
+		height: auto;
+	}
+	#navigation {
+		background-image: none;
+		background-color: #7b7b7b
+	}
