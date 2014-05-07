@@ -14,9 +14,10 @@
 		background-color: #7b7b7b;
 	}
 
-	#content {
-		height: auto;
+	#app.contacts {
+		margin-left:-15px
 	}
+
 	#navigation {
 		background-image: none;
 		background-color: #7b7b7b

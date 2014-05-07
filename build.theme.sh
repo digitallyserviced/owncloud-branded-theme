@@ -35,9 +35,11 @@ outputCssOverrides()
 		background-color: ${HEADER_BG_COLOR};
 	}
 
-	#content {
-		height: auto;
+	#app.contacts {
+		margin-left:-15px
+		margin-top:-15px
 	}
+
 	#navigation {
 		background-image: none;
 		background-color: ${HEADER_BG_COLOR}
