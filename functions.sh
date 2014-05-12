@@ -1,3 +1,7 @@
+outputCssOverrides() 
+{
+	HEADER_BG_COLOR=$1;
+    cat > ${CSS_DIR}/styles.css <<CSSDATA
 	#document-title .logo-wide {
 		background-image: none !important;
 		width: 147px;
@@ -6,12 +10,12 @@
 
 	#body-user #header, #body-settings #header {
 		background-image: none;
-		background-color: ;
+		background-color: ${HEADER_BG_COLOR};
 	}
 
 	#expanddiv {
 		background-image: none;
-		background-color: ;
+		background-color: ${HEADER_BG_COLOR};
 	}
 
 	#app.contacts {
@@ -21,5 +25,12 @@
 
 	#navigation {
 		background-image: none;
-		background-color: 
+		background-color: ${HEADER_BG_COLOR}
 	}
+CSSDATA
+}
+
+copyTemplateOverrides() 
+{
+	cp -Rf ${THIS_DIR}/overrides/* ${THEME_DIR}
+}
